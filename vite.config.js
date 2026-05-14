@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
-// Set base path to 'Pryzmic' for deployment
+// Set base path to 'pryzmic' for deployment
 export default defineConfig({
-  base: '/Pryzmic/',
+  base: '/pryzmic/',
 });
