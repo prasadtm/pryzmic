@@ -27,7 +27,7 @@ document.querySelector('#app').innerHTML = `
       </article>
       <article>
         <h2>Deployable</h2>
-        <p>Use Cloudflare Pages with the standard Vite build output in <strong>dist</strong>.</p>
+        <p>Use any static hosting provider with the standard Vite build output in <strong>dist</strong>.</p>
       </article>
       <article>
         <h2>Editable</h2>
@@ -39,7 +39,7 @@ document.querySelector('#app').innerHTML = `
       </article>
       <article id="deploy">
         <h2>Deploy</h2>
-        <p>Set your Cloudflare Pages build command to <strong>npm run build</strong> and the output directory to <strong>dist</strong>.</p>
+        <p>Build with <strong>npm run build</strong> and deploy the generated <strong>dist</strong> directory.</p>
       </article>
     </section>
   </main>

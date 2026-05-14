@@ -1,6 +1,6 @@
-# Cloudflare Static Site
+# Static Pages Site
 
-A simple static landing page built with Vite and ready to deploy on Cloudflare Pages.
+A simple static landing page built with Vite.
 
 ## Scripts
 
@@ -9,10 +9,7 @@ A simple static landing page built with Vite and ready to deploy on Cloudflare P
 - `npm run build` - generate the production build in `dist`
 - `npm run preview` - preview the production build locally
 
-## Deploy to Cloudflare Pages
+## Deploy Static Pages
 
-1. Create a new Cloudflare Pages project.
-2. Connect this repository.
-3. Set the build command to `npm run build`.
-4. Set the output directory to `dist`.
-5. Deploy the site.
+1. Build the site with `npm run build`.
+2. Deploy the generated `dist` folder to your preferred static hosting provider.
