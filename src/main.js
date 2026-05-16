@@ -3,7 +3,7 @@ import './style.css';
 document.querySelector('#app').innerHTML = `
   <main class="page-shell">
     <header class="site-header">
-      <span class="company-name">Pryzmic</span>
+      <span class="company-name">Prism</span>
       <nav class="site-menu">
         <a href="#products">Products</a>
       </nav>
